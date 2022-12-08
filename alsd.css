@@ -1,0 +1,151 @@
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+.slideshow-element {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.6s;
+}
+.slideshow-element i,
+h2 {
+  font-size: 10rem;
+  color: coral;
+}
+.slideshow-element.current {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.6s;
+}
+
+
+/* JavaScript Progress Bar */
+
+div#myProgress {
+  width: 100%;
+  height: 30px;
+  background: ddd;
+  background-color: #ddd;
+  position: relative;
+}
+
+div#myBar {
+  position: absolute;
+  background-color: #4CAF50;
+  width: 10px;
+  height: 30px;
+}
+
+/* start count stop count  (984) 464-7568*/
+
+.type {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input#imo {
+  height: 32px;
+  font-size: 32px;
+  width: 96px;
+  font-weight: 700;
+}
+
+button.startccc {
+  padding: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: white;
+  border: navajowhite;
+  border-radius: 5px;
+}
+
+/* 1 click to all style connect*/
+
+.p-style{
+  color: red;
+  font-size: 3rem;
+  font-weight: bold;
+  font-size: italic;
+}
+
+/* Event listener*/
+
+.event-listener{
+  color: tomato;
+  font-size: 3rem;
+  font-weight: bold ;
+}
+
+/* Class list all methods */
+
+.allStyle{
+  background-color: coral;
+  padding: 16px;
+}
+
+/* paly audio */
+
+.myAudio{
+  width: 100px;
+  height: 50px;
+  
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 15px;
+}
+
+.anim{
+  box-shadow: 0 15px 18px 0 tomato;
+  opacity: .5;
+}
+
+/* It is from  */
+
+
+#email{
+  margin-left: 1.52rem;
+  margin: 11px 13px 8px 22px;
+}
+
+#name{
+  margin-left: 1.52rem;
+}
+
+/* details tag */
+
+
+::marker {
+    font-size: 33px;
+}
+
+summary {
+    font-size: 33px;
+    font-weight: 900;
+}
+
+/* Mouse event  */
+
+div#mouseevent {
+  background-color: tomato;
+  height: 9rem;
+  width: 20rem;
+  text-align: center;
+  padding: 5rem 0 0 0;
+  font-size: 2rem;
+}
+
+
